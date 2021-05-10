@@ -13,7 +13,7 @@ import pageObject.regPage;
 public class registerstepDefination  
 {
 	public WebDriver driver;
-	regPage rp=new regPage(driver);
+	regPage rp;
 	
 	@Given("^user is already in registration page$")
 	public void user_is_already_in_registration_page() throws IOException 
